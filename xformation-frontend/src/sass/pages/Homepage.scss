@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.container-wrapper {
+  margin-top: 10%;
+  position: absolute;
+  color: #fff;
+  display: block;
+
+  .text {
+    width: 55%;
+    margin-left: 10%;
+    margin-top: 15%;
+    font-family: "Signika", sans-serif;
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: bold;
+
+
+      .tag {
+        color: mediumpurple;
+        font-weight: bolder;
+        font-size: 3rem;
+      }
+    }
+
+    p {
+      font-family: "Montserrat", sans-serif;
+      width: 125%;
+      text-transform: capitalize;
+      font-size: 2rem;
+      font-weight: bold;
+
+      .services {
+
+      }
+    }
+  }
+}
+
+
+@media  screen and (max-width: 1024px){
+  .container-wrapper {
+    position: absolute;
+    margin-top: 40%;
+  }
+}
